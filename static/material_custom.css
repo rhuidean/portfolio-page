@@ -1,0 +1,13 @@
+.body {
+	padding: 20px;
+	background: #fafafa;
+	position: relative;
+}
+
+.layout-container {
+	background: url(problem_solving.jpg);
+}
+
+.mdl-layout-title {
+	color: black;
+} 
