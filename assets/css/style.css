@@ -54,6 +54,24 @@ i {
     background-size: cover;
 }
 
+.fa {
+	line-height: inherit;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active, .tabs .tab a {
+    background-color: transparent;
+    color: #ee6e73;
+    font-family: 'Playfair Display',serif;
+    text-transform: capitalize;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	color: #004d40;
+	font-size: 70px;
+
+}
+
 
 
 
