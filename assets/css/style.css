@@ -65,16 +65,22 @@ i {
     text-transform: capitalize;
 }
 
-h1 {
+
+#test-swipe-1 #profile {
 	font-family: 'Playfair Display', serif;
 	color: #004d40;
 	font-size: 70px;
-
 }
-
-
 
 
 #tabs-swipe-demo {
 	background: transparent;
+}
+
+#test-swipe-2 {
+	display: flex;
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
