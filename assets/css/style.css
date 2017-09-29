@@ -44,6 +44,7 @@ i {
 .bg {
     /* The image used */
     background-image: url("../images/problem_solving.jpg");
+    opacity: 0.80;
 
     /* Full height */
     height: 100%; 
@@ -58,9 +59,10 @@ i {
 	line-height: inherit;
 }
 
-.tabs .tab a:hover, .tabs .tab a.active, .tabs .tab a {
+.tabs .tab a:hover, .tabs .tab a.active, .tabs .tab a, .tabs .indicator {
     background-color: transparent;
-    color: #ee6e73;
+    color: #32127A;
+    font-weight: bold;
     font-family: 'Playfair Display',serif;
     text-transform: capitalize;
 }
@@ -68,8 +70,16 @@ i {
 
 #test-swipe-1 #profile {
 	font-family: 'Playfair Display', serif;
-	color: #004d40;
-	font-size: 70px;
+	color: #32127A	;
+	font-size: 20px;
+	line-height: 170%;
+	word-spacing: 7px;
+}
+
+.card-panel {
+	margin: 10px;
+	padding: 20px;
+	width: 300px;
 }
 
 
